@@ -6,7 +6,7 @@ import { BsFillInfoCircleFill } from "react-icons/bs";
 
 export default function Header() {
   return (
-    <div className="max-w-6xl mx-auto p-3 flex justify-between items-center text-slate-100 text-xl">
+    <div className="max-w-6xl border-b-4 mx-auto p-3 flex justify-between items-center text-slate-100 text-xl">
       <div className="flex gap-4">
         <MenuItems title="home" address="/" Icon={AiFillHome} />
         <MenuItems title="about" address="/about" Icon={BsFillInfoCircleFill} />
